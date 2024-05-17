@@ -1,0 +1,89 @@
+#subpage{
+    background: url("images/fondo_flexed.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulosubR{
+    color: #fff;
+    margin-left: 130px;
+}
+
+.boxsub{
+    margin-top: 110px;
+    background: linear-gradient(90deg, #7030AA 0%, #1f083e00 100%);
+    margin-right: 60%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    overflow: visible;
+}
+
+.boxsub img{
+    margin-left: 60px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.titulosub{
+    margin-left: 200px;
+    background: -webkit-linear-gradient(#7030AA 0%, #FFB5B5 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.titulosub2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.bestdibujos{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tituloresub{
+    color: #c29ce48a;
+    font-size: 24px;
+    text-align: center;
+}
+
+.infoGGEN_R{
+    margin-left: 90px;
+    display: flex;
+}
+
+.infoGGEN_R h1{
+    color: #fff;
+    padding-left: 50px;
+}
+
+.infoGGEN_R p{
+    color: #fff;
+    padding-left: 50px;
+    font-size: 30px;
+    padding-right: 90px;
+}
+
+.yt{
+    display: flex;
+    margin-left: 120px;
+}
+
+.ytinfo{
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
