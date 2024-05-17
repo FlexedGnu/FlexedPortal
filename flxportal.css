@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Institute;
+    src: url("lt_institute.otf");
+
+}
+body{
+    background-color: #DAC3EF;
+    margin: 0;
+    font-family: Institute;
+    color: #170132;
+    font-size: 18px;
+}
+.titulo{
+    background: -webkit-linear-gradient(#7030AA 0%, #FFB5B5 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    background: #000;
+    background: linear-gradient(0deg, #120C2A 0%, #31154B 100%);
+    align-items: center;
+    display: flex;
+    padding: 0.1% 10%;
+}
+
+#navbar a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navitem{
+    font-size: 18px;
+}
+
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + content{
+    padding-top: 60px;
+}
+
+.fondobox{
+    background-color: #31154B;
+    width: 98.8vw;
+    height: 100vh;
+    background-image: url('images/fondo_flexed.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 605px;
+    box-sizing: border-box;
+    display: flex !important;
+}
+
+.bigseparator{
+    width: 100%;
+    height: 70px;
+    background: #000;
+    background: linear-gradient(0deg, #120C2A 0%, #31154B 100%);
+    padding: 2% 10%;
+}
+
+.bigfootseparator{
+    width: 100%;
+    height: 100px;
+    background: #000;
+    background: linear-gradient(0deg, #120C2A 0%, #31154B 100%);
+    padding: 2% 5%;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.txt_titulo{
+    color: #7030AA;
+    font-size: 32px;
+    padding-right: 40%;
+}
+
+.txt{
+    color: #170132;
+    font-size: 20px;
+    padding-right: 15%;
+}
+
+.imagebox{
+    padding-left: 5%;
+    display: flex;
+}
+
+.image {
+    flex: 0 0 auto;
+    margin-right: 10%;
+  }
+
+#chavez{
+    margin-top: 2%;
+    width: 25%;
+    height: 25%;
+}
+
+.flexed{
+    padding: 0%;
+    width: 401px;
+    height: auto;
+    margin-top: 75px;
+    display: block;
+    object-fit: contain;
+}
+
+@media(max-width:600px){ 
+    .flexed{
+        width: 10%;
+    }
+}
+
+.copyright{
+    color: #c29ce48a;
+    font-size: 24px;
+}
+
+.foot_icons{
+    justify-content: end;
+    display: flex;
+    list-style-type: none;
+}
+
+.icon_table{
+    justify-content: end;
+    display: flex;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+
+.icon_table td{
+    width: 400px;
+    height: 270px;
+}
+
+.progico{
+    padding-top: 44px;
+}
+
+.pagico{
+    padding-top: 9px;
+}
+
+svg{
+    fill: #fff;
+}
+
+.artimg{
+    content: url("images/button_arte.png");
+    width: 300px;
+}
+
+.progimg{
+    content: url("images/button_prog.png");
+}
+
+.vidimg{
+    content: url("images/button_video.png");
+    width: 300px;
+}
+
+.otrimg{
+    content: url("images/button_otro.png");
+    width: 300px;
+}
+
+.artimg:hover{
+    cursor: pointer;
+    content: url("images/hover_arte.png");
+    width: 300px;
+}
+
+.progimg:hover{
+    cursor: pointer;
+    content: url("images/hover_prog.png");
+    width: 300px;
+}
+
+.vidimg:hover{
+    cursor: pointer;
+    content: url("images/hover_video.png");
+    width: 300px;
+}
+
+.otrimg:hover{
+    cursor: pointer;
+    content: url("images/hover_otros.png");
+    width: 300px;
+}
