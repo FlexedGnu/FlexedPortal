@@ -59,7 +59,7 @@ body{
 
 .fondobox{
     background-color: #31154B;
-    width: 98.8vw;
+    width: 100%;
     height: 100vh;
     background-image: url('images/fondo_flexed.png');
     background-size: cover;
@@ -67,7 +67,7 @@ body{
     background-repeat: no-repeat;
     justify-content: space-between;
     align-content: center;
-    min-height: 605px;
+    min-height: 200px;
     box-sizing: border-box;
     display: flex !important;
 }
@@ -98,7 +98,7 @@ body{
 
 .txt{
     color: #170132;
-    font-size: 20px;
+    font-size: inherit;
     padding-right: 15%;
 }
 
@@ -119,18 +119,10 @@ body{
 }
 
 .flexed{
-    padding: 0%;
-    width: 401px;
+    margin-top: 100px;
+    width: auto;
     height: auto;
-    margin-top: 75px;
     display: block;
-    object-fit: contain;
-}
-
-@media(max-width:600px){ 
-    .flexed{
-        width: 10%;
-    }
 }
 
 .copyright{
@@ -153,7 +145,7 @@ body{
 
 .icon_table td{
     width: 400px;
-    height: 270px;
+    height: 280px;
 }
 
 .progico{
@@ -214,3 +206,179 @@ svg{
 a {
     text-decoration: none;
   }
+
+.titulo2{
+    padding-left: 5%;
+    color: #7030AA;
+}
+
+@media screen and (max-width: 900px){
+    .fondobox{
+        height: 10%;
+        min-height: 200px;
+    }
+
+    .flexed{
+        margin-top: 100px;
+    }
+
+    .icon_table{
+        margin-right: 5%;
+        margin-top: 15%;
+        padding-left: 5%;
+    }
+
+    .icon_table td{
+        width: 400px;
+        height: 200px;
+    }
+
+    .icon_table img{
+        width: 80%;
+    }
+
+    .artimg:hover{
+        width: 80%;
+    }
+    
+    .progimg:hover{
+        width: 80%;
+    }
+    
+    .vidimg:hover{
+        width: 80%;
+    }
+    
+    .otrimg:hover{
+        width: 80%;
+    }
+
+    .progico{
+        padding-top: 30px;
+    }
+
+    .pagico{
+        padding-top: 5px;
+    }
+
+    .txt_titulo{
+        font-size: 25px;
+        padding-right: 20%;
+    }
+
+    .txt{
+        color: #170132;
+        font-size: 100%;
+        padding-right: 15%;
+    }
+
+    #chavez{
+        margin-top: 2%;
+        width: 30%;
+        height: 30%;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+    .titulo{
+        font-size: 130%;
+    }
+
+    .navitem{
+        font-size: 70%;
+    }
+
+    #navbar{
+    padding: 0.1% 5%;
+    }
+
+    .flexed{
+        margin-top: 15%;
+        z-index: 0;
+        opacity: 50%;
+        width: auto;
+        height: auto;
+        display: block;
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    }
+
+    .icon_table{
+        position: relative;
+        z-index: 2;
+        margin-right: 0;
+    }
+
+    .fondobox{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .artimg:hover{
+        width: 80%;
+    }
+    
+    .progimg:hover{
+        width: 80%;
+    }
+    
+    .vidimg:hover{
+        width: 80%;
+    }
+    
+    .otrimg:hover{
+        width: 80%;
+    }
+
+    .progico{
+        padding-top: 24px;
+    }
+
+    .pagico{
+        padding-top: 5px;
+    }
+
+    .txt_titulo{
+        font-size: 20px;
+        padding-right: 10%;
+    }
+
+    .txt{
+        color: #170132;
+        font-size: 70%;
+        padding-right: 15%;
+    }
+
+    .imagebox{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #chavez{
+        margin-top: 0;
+        padding-bottom: 20px;
+        width: 50%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .copyright{
+        margin-left: 20px;
+        font-size: 90%;
+    }
+
+    .bigfootseparator div{
+        margin-top: 10px;
+    }
+
+    .bigfootseparator svg{
+        margin-top: 10px;
+    }
+}
