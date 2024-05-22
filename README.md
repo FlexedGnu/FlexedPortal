@@ -1,2 +1,0 @@
-# FlexedPortal
-Flexed Web Portal
