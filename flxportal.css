@@ -204,6 +204,7 @@ svg{
 }
 
 a {
+    color: inherit;
     text-decoration: none;
   }
 
@@ -381,4 +382,56 @@ a {
     .bigfootseparator svg{
         margin-top: 10px;
     }
+}
+
+@media screen and (max-height: 900px) and (max-width: 300px) {
+    .fondobox{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .flexed{
+        padding-top: 15%;
+    }
+
+    .icon_table{
+        padding-left: 10%;
+    }
+
+    .icon_table td{
+        width: 50%;
+        height: 150px;
+    }
+
+    .icon_table img{
+        width: 70%;
+    }
+
+    .artimg:hover{
+        width: 70%;
+    }
+    
+    .progimg:hover{
+        width: 70%;
+    }
+    
+    .vidimg:hover{
+        width: 70%;
+    }
+    
+    .otrimg:hover{
+        width: 70%;
+    }
+
+    .progico{
+        padding-top: 25px;
+    }
+
+    .pagico{
+        padding-top: 5px;
+    }
+    
 }

@@ -1,1 +1,1 @@
-Ejemplo de Portal Web (?). Actualmente está bien rota.
+Portal Web de FlexedGnu. Actualmente sin contenido de interés.
