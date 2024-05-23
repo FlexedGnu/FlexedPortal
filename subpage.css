@@ -95,7 +95,7 @@
     }
 
     .boxsub img{
-        width: 20%;
+        width: 25%;
         margin-left: 5%;
     }
 
@@ -138,16 +138,26 @@
         flex-direction: column;
         margin-left: 0;
         text-align: center;
+        display: block;
+    }
+
+    .yt iframe{
+        width: 90%;
     }
 
     .ytinfo{
         padding-left: 4%;
         padding-right: 4%;
+        padding-top: 10%;
     }
 
     .titulosubR{
         text-align: center;
         margin-left: 0;
+    }
+
+    .le_relleno{
+        padding-bottom: 50%;
     }
 }
 
