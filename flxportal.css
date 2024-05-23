@@ -60,7 +60,7 @@ body{
 .fondobox{
     background-color: #31154B;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('images/fondo_flexed.png');
     background-size: cover;
     background-position: center;
@@ -77,7 +77,6 @@ body{
     height: 70px;
     background: #000;
     background: linear-gradient(0deg, #120C2A 0%, #31154B 100%);
-    padding: 2% 10%;
 }
 
 .bigfootseparator{
@@ -109,20 +108,21 @@ body{
 
 .image {
     flex: 0 0 auto;
-    margin-right: 10%;
-  }
+    margin-right: 5%;
+}
 
 #chavez{
     margin-top: 2%;
-    width: 25%;
-    height: 25%;
+    width: 40%;
+    height: 40%;
 }
 
 .flexed{
     margin-top: 100px;
-    width: auto;
+    width: 340px;
     height: auto;
     display: block;
+    min-height: 500px;
 }
 
 .copyright{
@@ -139,8 +139,8 @@ body{
 .icon_table{
     justify-content: end;
     display: flex;
-    margin-right: 5%;
-    margin-top: 8%;
+    margin-right: 2%;
+    margin-top: 6%;
 }
 
 .icon_table td{
@@ -160,9 +160,13 @@ svg{
     fill: #fff;
 }
 
+.icon_table img{
+    width: 70%;
+}
+
 .artimg{
     content: url("images/button_arte.png");
-    width: 300px;
+    width: 70%;
 }
 
 .progimg{
@@ -171,36 +175,36 @@ svg{
 
 .vidimg{
     content: url("images/button_video.png");
-    width: 300px;
+    width: 70%;
 }
 
 .otrimg{
     content: url("images/button_otro.png");
-    width: 300px;
+    width: 70%;
 }
 
 .artimg:hover{
     cursor: pointer;
     content: url("images/hover_arte.png");
-    width: 300px;
+    width: 70%;
 }
 
 .progimg:hover{
     cursor: pointer;
     content: url("images/hover_prog.png");
-    width: 300px;
+    width: 70%;
 }
 
 .vidimg:hover{
     cursor: pointer;
     content: url("images/hover_video.png");
-    width: 300px;
+    width: 70%;
 }
 
 .otrimg:hover{
     cursor: pointer;
     content: url("images/hover_otros.png");
-    width: 300px;
+    width: 70%;
 }
 
 a {
@@ -224,9 +228,9 @@ a {
     }
 
     .icon_table{
-        margin-right: 5%;
+        margin-right: 4%;
         margin-top: 15%;
-        padding-left: 5%;
+        padding-left: 10%;
     }
 
     .icon_table td{
@@ -235,23 +239,23 @@ a {
     }
 
     .icon_table img{
-        width: 80%;
+        width: 70%;
     }
 
     .artimg:hover{
-        width: 80%;
+        width: 70%;
     }
     
     .progimg:hover{
-        width: 80%;
+        width: 70%;
     }
     
     .vidimg:hover{
-        width: 80%;
+        width: 70%;
     }
     
     .otrimg:hover{
-        width: 80%;
+        width: 70%;
     }
 
     .progico{
@@ -275,8 +279,8 @@ a {
 
     #chavez{
         margin-top: 2%;
-        width: 30%;
-        height: 30%;
+        width: 40%;
+        height: 40%;
         align-items: center;
     }
     
@@ -323,27 +327,27 @@ a {
     }
 
     .artimg:hover{
-        width: 80%;
+        width: 70%;
     }
     
     .progimg:hover{
-        width: 80%;
+        width: 70%;
     }
     
     .vidimg:hover{
-        width: 80%;
+        width: 70%;
     }
     
     .otrimg:hover{
-        width: 80%;
+        width: 70%;
     }
 
     .progico{
-        padding-top: 24px;
+        padding-top: 30px;
     }
 
     .pagico{
-        padding-top: 5px;
+        padding-top: 1px;
     }
 
     .txt_titulo{
@@ -365,8 +369,8 @@ a {
     #chavez{
         margin-top: 0;
         padding-bottom: 20px;
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 70%;
         align-items: center;
     }
 
@@ -433,5 +437,4 @@ a {
     .pagico{
         padding-top: 5px;
     }
-    
 }

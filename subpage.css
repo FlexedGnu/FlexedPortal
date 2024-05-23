@@ -12,7 +12,7 @@
 }
 
 .boxsub{
-    margin-top: 110px;
+    margin-top: 130px;
     background: linear-gradient(90deg, #7030AA 0%, #1f083e00 100%);
     margin-right: 60%;
     height: 60px;
@@ -95,7 +95,7 @@
     }
 
     .boxsub img{
-        width: 25%;
+        width: 20%;
         margin-left: 5%;
     }
 
@@ -137,12 +137,7 @@
     .yt{
         flex-direction: column;
         margin-left: 0;
-    }
-
-    .yt iframe{
-        width: 90%;
-        margin-left: 4.6%;
-        padding-bottom: 15%;
+        text-align: center;
     }
 
     .ytinfo{
@@ -153,14 +148,12 @@
     .titulosubR{
         text-align: center;
         margin-left: 0;
-        padding-bottom: 60%;
     }
 }
 
 @media screen and (max-height: 700px) {
     .boxsub img{
-        width: 25%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
     .titulosub{
@@ -190,15 +183,13 @@
     .yt{
         flex-direction: column;
         text-align: center;
-    }
-
-    .yt iframe{
-        margin-left: 7%;
+        display: block;
+        margin-left: 0;
     }
 
     .ytinfo{
         padding-top: 40px;
-        padding-left: 0;
+        margin-left: 0;
     }
 
     .titulosubR{
