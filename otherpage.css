@@ -41,6 +41,31 @@ h2{
     color: #17013238;
 }
 
+.flexbasic{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 60px;
+    padding-bottom: 40px;
+}
+
+.flexbasic h1{
+    font-size: 50px;
+}
+
+.titulo_cred{
+    background: -webkit-linear-gradient(#7030AA 0%, #FFB5B5 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grax{
+    margin-left: 60px;
+}
+
+.grax li{
+    padding-bottom: 15px;
+}
+
 @media screen and (max-width: 700px){
     h2{
         padding-left: 5%;
@@ -77,5 +102,15 @@ h2{
         padding-left: 10%;
         color: #17013238;
         padding-bottom: 30px;
+    }
+
+    .flexbasic{
+        margin-top: 120px;
+        margin-left: 5%;
+        padding-bottom: 40px;
+    }
+    
+    .flexbasic h1{
+        font-size: 170%;
     }
 }
