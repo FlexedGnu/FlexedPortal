@@ -66,6 +66,17 @@ h2{
     padding-bottom: 15px;
 }
 
+.epa{
+    display: flex;
+    color: #17013238;
+    padding-left: 60px;
+}
+
+.epa2{
+    color: #DAC3EF;
+}
+
+
 @media screen and (max-width: 700px){
     h2{
         padding-left: 5%;
